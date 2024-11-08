@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Impact";
+  src: url("./fonts/impact/Impact.ttf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TungstenBlack";
+  src: url("./fonts/tungsten/Tungsten-Black.ttf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TungstenMedium";
+  src: url("./fonts/tungsten/Tungsten-Medium.ttf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+
 |*{
     margin: 0;
     padding: 0;
