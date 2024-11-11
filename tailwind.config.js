@@ -6,7 +6,9 @@ export default {
       fontFamily: {
         impact: ["Impact", "sans-serif"],
         tungstenBlack: ["TungstenBlack", "sans-serif"],
+        tungstenBold: ["TungstenBold", "sans-serif"],
         tungstenMedium: ["TungstenMedium", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
       colors: {
