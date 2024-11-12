@@ -9,11 +9,11 @@ export default function FormLogin() {
     return (
         <div className="w-screen flex">
             <div className="w-[45%] h-screen">
-                <img className="object-cover w-full h-full" src="Login-Photo-1.png" alt="Login" />
+                <img className="object-cover w-full h-full" src="Login-Photo-2.png" alt="Login" />
             </div>
 
             <div className="w-1/2 flex flex-col items-center justify-center">
-                <h1 className="text-slate-200 mb-4 text-center font-tungstenBold text-4xl">Olá, bem-vindo de volta</h1>
+                <h1 className="text-slate-200 mb-4 text-center font-anton text-4xl">Olá, bem-vindo de volta</h1>
                 <form action="" className="w-96">
                     <div className="flex flex-col text-left mb-4">
                         <span className="text-slate-200 mb-2 font-roboto">Email</span>

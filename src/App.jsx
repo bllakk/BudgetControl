@@ -1,9 +1,10 @@
 import Login from "./routes/login";
+import Home from "./components/home";
 
 function App() {
   return (
     <>
-      <Login />
+      <Home />
     </>
   );
 }

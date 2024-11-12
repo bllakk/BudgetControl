@@ -9,6 +9,7 @@ export default {
         tungstenBold: ["TungstenBold", "sans-serif"],
         tungstenMedium: ["TungstenMedium", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
+        anton: ["Anton", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
       colors: {
