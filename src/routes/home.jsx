@@ -12,6 +12,8 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 import CardDefault from "@/components/card";
 
+import NewTable from "@/components/table";
+
 export default function Home(){
     return(
         <div className="bg-dark-blue-0 w-full h-full min-h-screen flex-col">
@@ -31,10 +33,10 @@ export default function Home(){
                 </div>
             </header>
         <div className=" flex flex-col justify-center items-center">
-            <div className="items-start flex gap-1 font-roboto mb-4">
+            <div className="flex gap-1 font-roboto mb-4 items-center">
                 <h3 className="font-bold">Novembro</h3>
                 <span>2024</span>
-                <span><FontAwesomeIcon icon={faArrowDown} /></span>
+                <span className="cursor-pointer border ml-2 rounded-full px-2 py-0.5"><FontAwesomeIcon icon={faArrowDown} /></span>
             </div>
             <div className="w-2/3 grid grid-rows-2 grid-cols-2 gap-4">
                     <GridItem colSpan={1}>
@@ -63,6 +65,7 @@ export default function Home(){
                     </GridItem>
             </div>
         </div>
+        <NewTable/>
     </div>
     )
 }
