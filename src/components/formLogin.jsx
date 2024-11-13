@@ -2,8 +2,8 @@ import InputDefault from "./inputDefault";
 import InputSubmit from "./inputSubmit";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import {faLock} from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faLock } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function FormLogin() {
     return (

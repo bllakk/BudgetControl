@@ -1,5 +1,5 @@
 import Login from "./routes/login";
-import Home from "./components/home";
+import Home from "./routes/home";
 
 function App() {
   return (
